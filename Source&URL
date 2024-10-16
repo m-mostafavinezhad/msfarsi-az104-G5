@@ -1,0 +1,12 @@
+- core concept 
+
+  *  Public IP 
+
+    Public IP addresses          -  https://learn.microsoft.com/en-us/azure/virtual-network/ip-services/public-ip-addresses
+
+  *  azure LB
+
+    Load Balancer documentation  -  https://learn.microsoft.com/en-us/azure/load-balancer/
+    Load Balancer architect      -  https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview
+
+  *  
