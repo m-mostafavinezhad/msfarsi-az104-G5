@@ -1,0 +1,22 @@
+- azure log analytics
+
+To collect logs from both your application and virtual machines (VMs) in Azure, you can use Azure Monitor
+
+. Here's a step-by-step guide:
+
+    Create a Log Analytics workspace: This is where your logs will be stored and analyzed
+.
+
+Install the Azure Monitor Agent: On your VMs, install the Azure Monitor Agent to collect data from the guest operating system
+
+.
+
+Enable Log Collection: Configure the agent to collect logs and metrics from your VMs
+
+.
+
+Set up Application Insights: For your applications, integrate Application Insights to collect telemetry data and logs.
+
+Query Logs: Use Log Analytics in the Azure portal to run queries and analyze the collected data
+.
+
