@@ -1,12 +1,34 @@
 - core concept 
 
-  *  Public IP 
-
+  * Public IP 
     Public IP addresses          -  https://learn.microsoft.com/en-us/azure/virtual-network/ip-services/public-ip-addresses
 
-  *  azure LB
-
+  * azure LB
     Load Balancer documentation  -  https://learn.microsoft.com/en-us/azure/load-balancer/
     Load Balancer architect      -  https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview
 
-  *  
+  * Virtual Network
+    Virtual Network documentation - https://learn.microsoft.com/en-us/azure/virtual-network/
+
+  * subnet 
+                                  - https://learn.microsoft.com/en-us/azure/virtual-network/concepts-and-best-practices#virtual-network-concepts
+  * VM
+    overview                      - https://learn.microsoft.com/en-us/azure/virtual-machines/overview
+
+  * Scale Set
+    VM  Scale Sets documentation  - https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/
+
+  * Storage Account 
+    Storage account overview      - https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview
+    Blob Storage documentation    - https://learn.microsoft.com/en-us/azure/storage/blobs/
+
+  * Azure Monitor 
+                                  - https://learn.microsoft.com/en-us/azure/azure-monitor/
+  * Log Analytics
+                                  - https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-overview
+
+  * Backup
+    Backup architecture and components - https://learn.microsoft.com/en-us/azure/backup/backup-architecture
+    Back up a VM                  - https://learn.microsoft.com/en-us/azure/backup/quick-backup-vm-portal
+  
+   
