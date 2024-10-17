@@ -23,7 +23,10 @@
     Blob Storage documentation    - https://learn.microsoft.com/en-us/azure/storage/blobs/
 
   * Azure Monitor 
-                                  - https://learn.microsoft.com/en-us/azure/azure-monitor/
+    overview                      - https://learn.microsoft.com/en-us/azure/azure-monitor/
+    Manage health probes for Azure Load Balancer using the Azure portal
+    https://learn.microsoft.com/en-us/azure/load-balancer/manage-probes-how-to
+
   * Log Analytics
                                   - https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-overview
 
