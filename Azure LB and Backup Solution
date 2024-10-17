@@ -1,1 +1,26 @@
+main request    
+[Implementation can have different ways and you have to decide what design you choose Cost and security must be considered in all designs]
 
+1. web service 
+   2 apps hosted on azure vms
+   storage od DB ?????
+
+2. azure lb
+    for distribute request between 2 vms
+    ensuring traffic is only directed to healthy instances
+    different types of load balancers (public and internal)
+
+
+3. robust backup solution 
+    for (app) and (data)
+    ensure data protection and easy recovery
+    ensure that both the apps and VMs are protected
+    [VM snapshots, application-level backups, and database backups]
+    how to schedule backups and how to restore applications or VMs
+
+4. store apps log
+    for operation and t-shoot and auditing purposes
+    logs from VMs are stored in a centralized location
+
+
+5. 
