@@ -15,7 +15,7 @@ main request
     for distribute request between 2 vms
     ensuring traffic is only directed to healthy instances
     different types of load balancers (public and internal) 
-    Mohammad: what does it mean exactly by public and internal?! I know we need to have a LB, but why it mention about public and internal!?
+    Mohammad: For sure, we need to use public LB.
 
 
 3. robust backup solution 
