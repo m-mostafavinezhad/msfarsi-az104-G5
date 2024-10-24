@@ -5,7 +5,8 @@ main request
    2 apps hosted on azure vms
    storage od DB ?????  
    Mohammad: - Install IIS in 2 VM and config a small page just to show a web page related tp VM1 and VM2.
-             - I don't think we need to have Storage account, the sites is running in IIS of each VMs
+             - I don't think we need to have Storage account, the sites is running in IIS of each VMs.
+             - Availability set need to be implemented for VMs. 
              - I don't think we need to create "scale set" in this scenario, my concern is they complain about the cost of using extera resource like scale set, as it didn't asked in the scenario.
              - the last point in this step I am still in doubt for using the VM, because Saeid and Mohesn mentioned that we need to consider the costs, so we use Web app service instead! 
             
