@@ -3,21 +3,18 @@ main request
 
 1. web service 
    2 apps hosted on azure vms
-   storage od DB ?????  
-   Mohammad: - Install IIS in 2 VM and config a small page just to show a web page related tp VM1 and VM2.
+             - Install IIS in 2 VM and config a small page just to show a web page related tp VM1 and VM2.
              - I don't think we need to have Storage account, the sites is running in IIS of each VMs.
              - Availability set need to be implemented for VMs. 
              - I don't think we need to create "scale set" in this scenario, my concern is they complain about the cost of using extera resource like scale set, as it didn't asked in the scenario.
              - the last point in this step I am still in doubt for using the VM, because Saeid and Mohesn mentioned that we need to consider the costs, so we use Web app service instead! 
-            
-           
+              
 
 2. azure lb
     for distribute request between 2 vms
     ensuring traffic is only directed to healthy instances
     different types of load balancers (public and internal) 
     Mohammad: For sure, we need to use public LB.
-
 
 3. robust backup solution 
     for (app) and (data)
@@ -29,11 +26,9 @@ main request
               - From RSV, we can get full backup of our VMs along with data, it's included with 3 snapshot for fast recovery. 
 
 4. store apps log
+
     for operation and t-shoot and auditing purposes
+    backup centralized location and need sotrage account (blob)
     logs from VMs are stored in a centralized location
-    Mohammad: - Create a log anatycs work space to collect and store logs in a centralized location.
-              - Use Azure monitor agent in VMs to collect data from apps in VMs. 
-
-
-
-5. 
+    - Create a log anatycs work space to collect and store logs in a centralized location.
+    - Use Azure monitor agent in VMs to collect data from apps in VMs. 
