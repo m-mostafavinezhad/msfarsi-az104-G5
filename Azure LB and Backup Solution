@@ -14,7 +14,7 @@ main request
     for distribute request between 2 vms
     ensuring traffic is only directed to healthy instances
     different types of load balancers (public and internal) 
-    Mohammad: For sure, we need to use public LB.
+     For sure, we need to use public LB.
 
 3. robust backup solution 
     for (app) and (data)
@@ -22,7 +22,7 @@ main request
     ensure that both the apps and VMs are protected
     [VM snapshots, application-level backups, and database backups]
     how to schedule backups and how to restore applications or VMs
-    Mohammad: - We create a recovery service vault(part of Azure backup) to define the policy for backup schedule. 
+     - We create a recovery service vault(part of Azure backup) to define the policy for backup schedule. 
               - From RSV, we can get full backup of our VMs along with data, it's included with 3 snapshot for fast recovery. 
 
 4. store apps log
